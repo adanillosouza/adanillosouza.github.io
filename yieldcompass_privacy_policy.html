@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade - Yield Compass</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #7c3aed;
+            border-bottom: 3px solid #7c3aed;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #5b21b6;
+            margin-top: 30px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin: 10px 0;
+        }
+        .last-updated {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+        .contact {
+            background-color: #f3f4f6;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        .highlight {
+            background-color: #fef3c7;
+            padding: 15px;
+            border-left: 4px solid #f59e0b;
+            margin: 20px 0;
+        }
+        a {
+            color: #7c3aed;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Política de Privacidade - Yield Compass</h1>
+        <p class="last-updated"><strong>Última atualização:</strong> 1 de outubro de 2026</p>
+
+        <div class="highlight">
+            <strong>Resumo:</strong> o Yield Compass nunca pede nem guarda chave privada ou seed phrase. Sem login, as carteiras, preferências e históricos ficam só no seu aparelho. O login com Google e a sincronização são opcionais. No plano gratuito o app exibe anúncios do Google AdMob; a compra única "Premium" remove os anúncios.
+        </div>
+
+        <h2>1. Quem somos</h2>
+        <p>O Yield Compass ("App") é um aplicativo independente para acompanhar carteiras Solana e posições de liquidez, desenvolvido por M4trix ("nós"). O App não tem afiliação com Raydium, Jupiter ou Solana e não é recomendação de investimento.</p>
+
+        <h2>2. Dados que ficam apenas no seu aparelho</h2>
+        <ul>
+            <li>Endereços públicos das carteiras cadastradas, nomes e cores escolhidos por você;</li>
+            <li>Apelido, preferências, alertas, histórico de operações e de patrimônio calculados pelo App;</li>
+            <li>Configuração do bloqueio biométrico (a biometria é tratada pelo sistema Android; o App nunca a recebe);</li>
+            <li>Endereço de RPC personalizado, se você informar um (nunca é enviado a nós).</li>
+        </ul>
+
+        <h2>3. Dados enviados para consultar preços e saldos</h2>
+        <p>Para mostrar saldos, posições, preços e gráficos, o App envia o <strong>endereço público</strong> da carteira (e identificadores públicos de tokens) a serviços de terceiros, como a API pública da Raydium, nós RPC públicos da Solana, Jupiter (preços) e GeckoTerminal (preços e histórico). Esse endereço é uma informação pública da blockchain. Esses serviços têm suas próprias políticas de privacidade.</p>
+
+        <h2>4. Login com Google (opcional)</h2>
+        <p>Se você entrar com sua conta Google (Firebase Authentication), guardamos nome, e-mail, foto e identificador único de usuário para mostrar sua conta no Perfil. Sem login, o App funciona normalmente.</p>
+
+        <h2>5. Sincronização na nuvem (opcional)</h2>
+        <p>Com a sincronização ligada, os endereços, nomes e cores das carteiras, o apelido e algumas preferências são salvos no Cloud Firestore (Google Cloud), na região de <strong>São Paulo (Brasil)</strong>, vinculados à sua conta, para aparecerem nos seus outros aparelhos. Os dados são protegidos em trânsito (TLS) e por regras de acesso que permitem que somente você leia e altere os seus dados. Você pode desligar a sincronização ou sair da conta a qualquer momento.</p>
+
+        <h2>6. Anúncios e identificador de publicidade</h2>
+        <p>No plano gratuito o App exibe anúncios do <strong>Google AdMob</strong>, apenas nas telas de lista (Ativos e Posições). O AdMob pode usar o identificador de publicidade do aparelho e dados de interação com os anúncios para escolher, entregar e medir anúncios. Onde a lei exige, o Google mostra um formulário de consentimento; sem consentimento, só são exibidos anúncios não personalizados. Você pode rever a escolha em <em>Configurações &gt; Privacidade dos anúncios</em> e redefinir ou apagar o identificador de publicidade nas configurações do Android. Quem tem o Premium não carrega anúncios.</p>
+        <p>Política de Privacidade do Google: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></p>
+
+        <h2>7. Compra Premium (Google Play)</h2>
+        <p>A compra única "Yield Compass Premium (vitalícia)" é processada pela Google Play. O App apenas consulta à Google Play se a sua conta possui a compra e <strong>nunca recebe dados de pagamento</strong>. Reembolsos seguem as regras da Google Play; se a compra for reembolsada, os anúncios voltam.</p>
+
+        <h2>8. O que não coletamos</h2>
+        <ul>
+            <li>Chave privada, seed phrase ou frase de recuperação, em nenhuma hipótese;</li>
+            <li>Dados de pagamento, localização, contatos, fotos ou microfone;</li>
+            <li>Não usamos ferramentas de análise de uso nem de relatório de falhas.</li>
+        </ul>
+        <p>Quando você aprova uma operação (por exemplo, coletar ou reinvestir taxas), a transação é assinada na sua própria carteira (Mobile Wallet Adapter); o App não tem acesso às suas chaves.</p>
+
+        <h2>9. Notificações</h2>
+        <p>Os alertas são gerados no próprio aparelho e exigem a sua permissão de notificações, que pode ser negada ou revogada a qualquer momento.</p>
+
+        <h2>10. Compartilhamento</h2>
+        <p><strong>Não vendemos dados pessoais.</strong> Os dados são compartilhados apenas com os provedores necessários ao funcionamento (Google Firebase, Google AdMob, Google Play e os serviços de dados citados no item 3) ou quando exigido por lei.</p>
+
+        <h2>11. Retenção e exclusão</h2>
+        <p>Dados locais ficam no aparelho até você apagá-los ou desinstalar o App. Dados na nuvem ficam até você excluir a conta. Para excluir:</p>
+        <ul>
+            <li><strong>No App:</strong> Perfil &gt; Excluir conta (apaga os dados da nuvem e a conta; você escolhe se apaga também os dados do aparelho);</li>
+            <li><strong>Pelo site:</strong> <a href="yieldcompass_delete_account.html">página de exclusão de conta do Yield Compass</a>.</li>
+        </ul>
+
+        <h2>12. Crianças</h2>
+        <p>O App não é direcionado a menores de 13 anos e não coleta intencionalmente dados de crianças.</p>
+
+        <h2>13. Seus direitos (LGPD)</h2>
+        <p>Você pode solicitar confirmação de tratamento, acesso, correção, eliminação, portabilidade, informação sobre compartilhamento e revogação de consentimento, usando o contato abaixo.</p>
+
+        <h2>14. Alterações</h2>
+        <p>Podemos atualizar esta política. A versão vigente e a data da última atualização ficam sempre nesta página; mudanças relevantes também serão avisadas no App.</p>
+
+        <h2>15. Contato</h2>
+        <div class="contact">
+            <ul>
+                <li><strong>E-mail:</strong> <a href="mailto:suport.michely@gmail.com">suport.michely@gmail.com</a></li>
+                <li><strong>Aplicativo:</strong> Yield Compass</li>
+                <li><strong>Desenvolvedor:</strong> M4trix</li>
+            </ul>
+            <p>Respondemos solicitações legítimas em até 30 dias.</p>
+        </div>
+
+        <p style="text-align: center; color: #666; margin-top: 40px; font-size: 14px;">
+            © 2026 Yield Compass. Todos os direitos reservados.
+        </p>
+    </div>
+</body>
+</html>
